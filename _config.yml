@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Xionli的技术博客
+title: crackhopper的技术博客
 subtitle: 'C++, Graphics, Game, AI/ML'
 description: '爱游戏的技术宅'
 keywords: crackhopper, developer, graphics, game, c++
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:

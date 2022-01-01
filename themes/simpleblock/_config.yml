@@ -3,7 +3,7 @@ google_analytics:
 duoshuo:
 
 ## Meta
-rss: https://jysperm.me/atom.xml
+#rss: https://jysperm.me/atom.xml
 favicon: /favicon.png
 icon: /favicon.png
 source_url:
@@ -14,32 +14,32 @@ license:
 ## Menus
 menus:
   'Home': /
+  'About': /about
 
 right_menus:
-  'RSS': /atom.xml
-  'fork on Github':
+#  'RSS': /atom.xml
+  'theme(Github)':
     target: '_blank'
     href: 'hexo-theme-simpleblock'
 
 ## Banners && Widgets
-banners:
-  jade: |
-    a(href='https://github.com/jysperm/hexo-theme-simpleblock') 与精子同款的博客主题 simpleblock 现已发布！
+#banners:
+#  jade: |
+#    a(href='https://github.com/jysperm/hexo-theme-simpleblock') 与精子同款的博客主题 simpleblock 现已发布！
 
 widgets:
-  -
-    markdown: |
-      Simple Block 是一个基于线框设计的简单的 Hexo 主题，拆分自 [精子的博客](https://jysperm.me)。
-      支持使用 Jade 或 Markdown 来向边栏添加小部件，或向正文前添加横幅。
+  - markdown: |
+      crackhopper，85后工程师。
+      
+      domain：Math, CG, ML, CV, AI
 
       技术栈：
-      $a^2+b^2=c$
-
-      * Jade - 页面模板
-      * Less/Sass - 页面样式
-      * Bower - 前端包管理器
-      * CoffeeScript - Hexo 拓展脚本
-      * Gulp - 编译工具
+      * C/C++
+      * Python
+      * ES6/Typescript
+      * C#
+      
+      专注与自己的游戏工作室，以及游戏引擎研发
 
   -
     tags: true
